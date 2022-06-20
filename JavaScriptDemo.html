@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html >
+<head>
+    
+    <title></title>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <script>
+
+        var age = 30;
+        var salary = 56000.45;
+
+
+        var age = 10;
+        if (age >= 18) {
+            console.log("valid");
+        }
+        else {
+            console.log("not valid");
+        }
+
+
+        var a = 1;
+        while (a <= 20) {
+            if (a % 2 == 0) {
+                console.log(a)
+            }
+            a++;
+        }
+
+        do {
+            if (a % 2 != 0) {
+                console.log(a)
+            }
+            a++;
+        } while (a <= 20);
+
+        for (var i = 0; i < 10; i++) {
+            console.log(i);
+        }
+
+        // function in javascript
+        // 1. function without paramter & return type
+        function addition() {
+            var a = 10, b = 20;
+            var c = a + b;
+            console.log("Addition is " + c);
+        }
+
+        // call to the function
+        addition();
+
+        // 2. function with paramter & no return type
+        function substract(a, b) {
+            var c = a - b;
+            console.log("Sub is " + c);
+        }
+
+        substract(78, 23);
+
+        // 3. function with paramter & return type
+        function Multiply(a, b) {
+            var c = a * b;
+            return c;
+        }
+
+        var result = Multiply(67, 23);
+        console.log("multiplication is " + result);
+
+        var nums = [56, 34, 12, 89, 59];
+        var names = ["rohan", "suraj", "kishor", "rahul"];
+        //for (var i = 0; i < names.length; i++) {
+        //    console.log(names[i]);
+        //}
+
+        names.push("amol");
+        names.unshift("dhiraj");
+        //remove the last element
+        names.pop();
+        //remove the first element
+        names.shift();
+        // splice
+        names.splice(1, 0, "balaji", "kushal");
+        // slice
+        //var list = names.slice(2);
+        var list = names.slice(1, 5);    // --> <5
+        names.sort();
+        names.reverse();
+        document.getElementById("d1").innerHTML = names;
+        document.getElementById("d2").innerHTML = list;
+
+
+
+
+    </script>
+</body>
+</html>
