@@ -1,0 +1,30 @@
+﻿.banner
+{
+    margin:10px;
+    width:200px;
+
+}
+img {
+    height: 150px;
+}
+
+.banner .carousel-inner  {
+    height: 200px;
+}
+.form-label {
+    margin-top:10px;
+}
+
+.content .container-fluid .btn btn-primary {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    margin: 100px;
+    margin-top: 20px
+}
+
+.st {
+    vertical-align: middle;
+    width: 164%;
+}
