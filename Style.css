@@ -1,0 +1,21 @@
+﻿#para1 {
+    /Element selector css/ background-color: #74EAF2;
+    height: 200px;
+    color: #9D24A3;
+}
+
+h1 {
+    color: blue;
+    background-color:#8E44AD;
+}
+
+#menu {
+    /Id selector css/ background-color: #4FF416;
+    height: 50px;
+}
+
+.menu {
+    /Class selector css/ background-color: #C209DC;
+    height: 50px;
+    color: white;
+}
